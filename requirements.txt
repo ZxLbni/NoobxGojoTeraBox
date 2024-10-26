@@ -1,0 +1,4 @@
+telethon
+redis
+requests
+tools

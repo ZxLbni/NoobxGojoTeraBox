@@ -147,7 +147,7 @@ async def ping_pong(m: UpdateNewMessage):
 # Generate gift codes
 @bot.on(
     events.NewMessage(
-        pattern="/gc (\d+)",
+        pattern=r"/gc (\d+)",
         incoming=True,
         outgoing=False,
         from_users=ADMINS,
